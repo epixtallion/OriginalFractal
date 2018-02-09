@@ -4,6 +4,7 @@ void setup(){
 }
 void draw(){
   fill(0);
+  noStroke();
   rect(0, 0, 500, 500);
 
   fractal(250, 270, 450);
